@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Spots Image Webpage" />
+    <meta name="author" content="Greg Jones" />
+    <meta name="keywords" content="HTML, CSS" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
+    <title>Spots</title>
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <img src="./images/logo.svg" alt="Spots Logo" class="header__logo" />
+      </header>
+      <main class="content">
+        <section class="profile">
+          <div class="profile__avatar">
+            <img
+              src="./images/avatar.jpg"
+              alt="Bessie Coleman Avatar"
+              class="profile__avatar-image"
+            />
+          </div>
+          <div class="profile__column">
+            <h1 class="profile__name overflow overflow--multiple-lines">
+              Bessie Coleman
+            </h1>
+            <h2 class="profile__description overflow overflow--multiple-lines">
+              Civil Aviator
+            </h2>
+            <div class="profile__container-button">
+              <button
+                type="button"
+                aria-label="Edit Profile Button"
+                class="button profile__edit-button"
+              >
+                <img
+                  src="./images/edit-icon.svg"
+                  alt="Edit Icon (Pencil) Image"
+                  class="profile__edit-icon"
+                />
+                Edit Profile
+              </button>
+              <button
+                type="button"
+                aria-label="Add A New Post Button"
+                class="button profile__add-button"
+              >
+                <img
+                  src="./images/add-icon.svg"
+                  alt="Add Icon (+ Sign) Image"
+                  class="profile__add-icon"
+                />
+                New Post
+              </button>
+            </div>
+          </div>
+        </section>
+        <section class="cards">
+          <ul class="cards__list">
+            <li class="card">
+              <img
+                src="./images/1-photo-by-moritz-feldmann-from-pexels.jpg"
+                alt="Val Thorens"
+                class="card__image"
+              />
+              <div class="card__content">
+                <h2 class="card__text overflow overflow--single-line">
+                  Val Thorens
+                </h2>
+                <button
+                  type="button"
+                  aria-label="Like Button"
+                  class="button card__like-button"
+                ></button>
+              </div>
+            </li>
+
+            <li class="card">
+              <img
+                src="./images/2-photo-by-ceiline-from-pexels.jpg"
+                alt="Restaurant terrace"
+                class="card__image"
+              />
+              <div class="card__content">
+                <h2 class="card__text overflow overflow--single-line">
+                  Restaurant terrace
+                </h2>
+                <button
+                  type="button"
+                  aria-label="Like Button"
+                  class="button card__like-button"
+                ></button>
+              </div>
+            </li>
+
+            <li class="card">
+              <img
+                src="./images/3-photo-by-tubanur-dogan-from-pexels.jpg"
+                alt="An outdoor cafe"
+                class="card__image"
+              />
+              <div class="card__content">
+                <h2 class="card__text overflow overflow--single-line">
+                  An outdoor cafe
+                </h2>
+                <button
+                  type="button"
+                  aria-label="Like Button"
+                  class="button card__like-button"
+                ></button>
+              </div>
+            </li>
+
+            <li class="card">
+              <img
+                src="./images/4-photo-by-maurice-laschet-from-pexels.jpg"
+                alt="A very long bridge, over the forest in Germany"
+                class="card__image"
+              />
+              <div class="card__content">
+                <h2 class="card__text overflow overflow--single-line">
+                  A very long bridge, over the forest in Germany
+                </h2>
+                <button
+                  type="button"
+                  aria-label="Like Button"
+                  class="button card__like-button"
+                ></button>
+              </div>
+            </li>
+
+            <li class="card">
+              <img
+                src="./images/5-photo-by-van-anh-nguyen-from-pexels.jpg"
+                alt="Tunnel with morning light"
+                class="card__image"
+              />
+              <div class="card__content">
+                <h2 class="card__text overflow overflow--single-line">
+                  Tunnel with morning light
+                </h2>
+                <button
+                  type="button"
+                  aria-label="Like Button"
+                  class="button card__like-button"
+                ></button>
+              </div>
+            </li>
+
+            <li class="card">
+              <img
+                src="./images/6-photo-by-moritz-feldmann-from-pexels.jpg"
+                alt="Mountain house"
+                class="card__image"
+              />
+              <div class="card__content">
+                <h2 class="card__text overflow overflow--single-line">
+                  Mountain house
+                </h2>
+                <button
+                  type="button"
+                  aria-label="Like Button"
+                  class="button card__like-button"
+                ></button>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+      <footer class="footer">
+        <h3 class="footer__text">2024 &copy; Greg Jones</h3>
+      </footer>
+    </div>
+  </body>
+</html>
