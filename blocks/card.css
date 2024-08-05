@@ -41,13 +41,6 @@
   opacity: 100%;
 }
 
-/*
-@media screen and (max-width: 630px) {
-  .card__image {
-    height: 288px;
-  }
-}*/
-
 @media screen and (max-width: 460px) {
   .card__text {
     font-size: 16px;

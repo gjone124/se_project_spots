@@ -6,6 +6,7 @@
 - Figma
 - Images
 - Tech Used
+- Video Describing Project
 - Deployment
 
 **Intro**
@@ -41,6 +42,12 @@ Here are 2 screenshots of the project:
 - Grid
 - Flexbox
 - Hover Elements
+
+**Video Describing Project**
+
+https://www.loom.com/share/fc87072b3f2f472b9f1fb6020a2819cf?sid=b4de1fc1-f7f0-4407-95b4-a8810fe82c37
+
+The text of this video can be found in the video-script.txt file provided.
 
 **Deployment**
 

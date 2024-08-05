@@ -1,0 +1,382 @@
+In this video, I am going to be going through this checklist of 12 things we were instructed to 
+include that describe this project I have been working on.
+
+
+
+Video Checklist
+
+1)open your web page in a browser and briefly describe the project
+
+
+
+So here is the VS Code. And we can open it in the browser by clicking on “Go Live” right here. 
+Alright, so here is the web page that I created based off what was provided to us on figma.com. 
+It’s pretty much the same thing except my name is here at the bottom.
+
+
+
+So this is the 4th project for the Triple Ten software engineering program. It’s associated with 
+Sprint 3: Adaptive Web Design and Working with Layouts. For this project, we were given an 
+adaptive web design through figma.com and we were told to replicate the web page from scratch 
+using HTML and CSS. This project uses HTML, CSS, Responsive Design, BEM, Grid, Flexbox, and 
+Hover Elements.
+
+
+
+2)Explain how you made a layout for cards. Why did you use Grid or Flexbox?
+
+
+
+Creating a card layout in CSS typically involves using a grid or flexbox for the overall 
+layout, and defining styles for individual cards. I chose to use a grid over a flexbox because 
+a grid is able to be more responsive than a flexbox. This project is meant to have an adaptive 
+design that changes as the screen gets larger or smaller. Grid layouts have media queries 
+(which you can see I used in the cards.css block) which allow the web page to be easily 
+adjusted to create responsive designs. Grid layout also has auto-placement such as through the 
+use of auto-fit which automatically adjust the number of columns based on the available space.
+
+
+
+I’ll show you how the cards layout behaves at different resolutions.
+
+
+
+So you can see that there’s 3 columns here at this resolution. And then when you make it 
+smaller, instead of 3 columns there’s 2 columns and then when you make it even smaller there’s 
+just 1 column.
+
+
+
+3)Show how your project changes for the tablet and phone resolutions. Open any .css file and 
+explain how you achieved these changes.
+
+
+
+I’ll show you how the web page changes depending on the screen size.
+
+
+
+So I already mentioned one feature. As it gets smaller, the cards change from 3 to 2 to 1 
+column. But then also the “New Post” button when you make it smaller it eventually stretches 
+across the screen and the other items in the profile section right here adjust their position 
+when you make it small enough. As you can see.
+
+
+
+The card.css, cards.css, and profile.css blocks use the @media tags to change the layout 
+depending on the size of the screen.
+
+
+
+So I already showed you cards.css. Here is the @media tag for card.css. And here are the 
+@media tags for profile.css.
+
+
+
+4)Open the index.html file in the VS Code. Show which semantic tags you used in your HTML 
+code. Why is it important to use semantic tags?
+
+
+
+First off, angle brackets (< >) are used for HTML tags. Semantic tags that were used include 
+html, head, title, body, div, header, img, main, section, h1, h2, button, ul, li, footer, 
+and h3.
+
+
+
+Semantic tags are important to use because they provide meaning to the web content they 
+enclose, clearly describing their purpose both to the browser and developer. These HTML 
+tags help improve the readability of the code and assist search engines and other technologies 
+in better understanding the structure and content of web pages. These tags enhance 
+accessibility, search engine optimization (SEO), and the overall organization of the web page.
+
+
+
+5)You used BEM methodology when developing the last 3 projects. Let’s recall what these 
+letters stand for. What is a block/element/modifier?
+
+
+
+In CSS, the concepts of Block, Element, and Modifier are central to the Block Element 
+Modifier (BEM) methodology, a popular naming convention that helps developers write clean, 
+maintainable, and scalable CSS code. This methodology helps to create clear and modular code 
+by breaking down interfaces into reusable components. Here’s a breakdown:
+
+
+
+1. A Block is the main building block that represents a standalone component that is meaningful 
+on its own. Examples include a navigation menu, a button, and a form. The naming convention 
+for a block is a descriptive word or phrase such as ‘.menu’, ‘.button’, or ‘.form’.
+
+
+
+2. An Element is a part of a block that has no standalone meaning and is semantically tied 
+to its block. Examples include items within a navigation menu, a label within a form, or an 
+icon within a button. The naming convention for an element has the element name separated from 
+the block name by a double underscore (`__`) such as `.menu__item`, `.form__label`, 
+or `.button__icon`.
+
+
+
+3. A Modifier is a flag on a block or element that changes its appearance, behavior, or state. 
+Examples include a disabled button, a selected menu item, or a large button. The naming 
+convention for a modifier has the modifier name separated from the block or element name by a 
+double hyphen (`--`) such as `.button--disabled`, `.menu__item--selected`, or `.button--large`.
+
+
+
+6)How do you structure files and CSS code according to BEM?
+
+
+
+Structuring files and CSS code according to the BEM (Block Element Modifier) methodology 
+involves organizing your code and directories in a way that mirrors the modular nature of 
+your components. Here's a step-by-step guide to structuring your files and writing CSS code 
+using BEM:
+
+
+
+### File Structure
+
+Organizing your project directory to reflect BEM principles can make your codebase more 
+maintainable. A common approach is to create separate directories for each block. I have 
+separate directories for each block in my project also such as button.css, card.css, 
+cards.css, content.css, footer.css, header.css, overflow.css, page.css, and profile.css.
+
+
+
+### CSS File for Each Block
+
+Each block should have its own CSS file, containing styles for the block, its elements, 
+and any modifiers. For example, this is what my project’s ‘profile.css’ file looks like:
+
+1)’.profile’ is the block
+
+2)’.profile__avatar’ is an element of the block
+
+
+
+### Including CSS in HTML
+
+Each HTML file for a block should include the respective CSS file.
+
+
+
+### Main CSS File
+
+You can also have a main CSS file that imports all the block CSS files, which you can then 
+include in your main HTML file. I apply this in my index.css file for this project using 
+import statements.
+
+
+
+So here is the index.css file and the import statements.
+
+
+
+### Benefits of This Structure
+
+1. **Modularity**: Each component (block) is self-contained, making it easier to manage and 
+update.
+
+2. **Reusability**: Blocks, elements, and modifiers can be reused across different parts of 
+the project.
+
+3. **Scalability**: The structure supports the addition of new components without disrupting 
+existing ones.
+
+4. **Maintainability**: Clear separation of concerns helps in understanding and maintaining 
+the codebase.
+
+
+
+By following this structure, your project will adhere to BEM principles, leading to a more 
+organized and maintainable codebase.
+
+
+
+7)Open the index.css file. Why do we connect fonts and normalize.css before all other styles?
+
+
+
+Connecting fonts and `normalize.css` before all other styles is a common best practice for 
+several reasons. By including fonts and `normalize.css` before your custom styles, you 
+establish a solid foundation for your design, ensuring consistency, reliability, and better 
+performance across different browsers and devices. To be more specific:
+
+
+
+### Fonts
+
+1. **Consistency**: Loading fonts at the beginning ensures that all subsequent styles can 
+rely on the fonts being available, leading to a consistent appearance across the entire site.
+
+2. **Performance**: Browsers can start fetching and rendering fonts as early as possible, 
+reducing the likelihood of Flash of Unstyled Text (FOUT) where default fonts are displayed 
+before custom fonts load.
+
+3. **Dependency**: Many other styles might depend on the availability of specific fonts. By 
+loading fonts first, you ensure that typography-related styles (like font-family, font-size, 
+etc.) are applied correctly.
+
+
+
+### Normalize.css
+
+1. **Cross-Browser Consistency**: `normalize.css` is a small CSS file that provides better 
+cross-browser consistency in the default styling of HTML elements. By loading it first, you 
+ensure a clean and predictable baseline for all elements before applying your custom styles.
+
+2. **Resetting Defaults**: It resets or normalizes the default styles of various HTML 
+elements, so you don’t have to deal with unexpected styling issues caused by different 
+browser defaults.
+
+3. **Foundation for Custom Styles**: Loading `normalize.css` first provides a normalized 
+foundation upon which you can build your custom styles. This helps prevent conflicts and 
+inconsistencies between default browser styles and your custom styles.
+
+
+
+So normalize.css is right here. This file.
+
+
+
+My html file has a line of code that says <link rel=“stylesheet” href=“./pages/index.css” />. 
+This references the index.css file and in the index.css file you can see that there are 
+import statements for the files normalize.css first and fonts.css second.
+
+
+
+8)Why do we need a normalize.css file?
+
+
+
+We need a normalize.css file for 4 reasons:
+
+
+
+1. **Cross-Browser Consistency**: Different browsers have varying default styles for HTML 
+elements. `normalize.css` provides a consistent starting point by resetting or normalizing 
+these styles.
+
+
+
+2. **Reducing Browser-Specific Bugs**: It helps in minimizing inconsistencies and 
+unexpected behavior caused by browser-specific default styles.
+
+
+
+3. **Improved Readability**: By providing a uniform base, it simplifies the process of 
+styling elements, making your CSS more predictable and easier to manage.
+
+
+
+4. **Maintainable Stylesheets**: With a consistent foundation, your custom styles are 
+more reliable and less prone to issues that might arise from default browser styles.
+
+
+
+Overall, `normalize.css` helps in ensuring that your website looks similar across different 
+browsers and devices.
+
+
+
+9)Besides normalize.css and fonts.css, why are the other stylesheets in index.css connected 
+in this order?
+
+
+
+You can see that I have overflow.css and button.css next to make sure these properties get 
+applied to the other classes including the profile and card classes. And then the other 
+classes are listed in chronological order that they appear in index.html: page, header, 
+content, profile, cards, card, and then the footer class.
+
+
+
+10)How did you connect the fonts in your project? Which alternative fonts did you use?
+
+
+
+To connect fonts using CSS, you typically follow one of two main methods: using web fonts 
+provided by a service like Google Fonts or self-hosting the fonts. 
+
+
+
+For using Google Fonts, you create a link to the font in the HTML `<head>` section and then 
+apply it in your CSS.
+
+
+
+For Self-Hosting Fonts, you use an `@font-face` declaration to define the font in your CSS 
+and then apply it in your CSS.
+
+
+
+Both methods ensure that your chosen fonts are applied consistently across your website.
+
+
+
+I connected the two fonts (Poppins Medium and Poppins Regular) by dowloading them from 
+fonts.google.com. And then I used the self-hosting fonts method to apply the fonts to 
+the project.
+
+
+
+I’ll show you how I connected these 2 fonts to the project.
+
+
+
+So you can see there is the 2 fonts here: Poppins-Medium.ttf and Poppins-Regular.ttf and 
+here is the fonts.css file.
+
+
+
+I have each @font-face declaration reference its corresponding font file. Poppins Medium 
+is referenced using ‘src: url(“./fonts/Poppins-Medium.ttf”)’ and Poppins Regular is 
+referenced using ‘src: url(“./fonts/Poppins-Regular.ttf”)’. The ‘./fonts’ declaration tells 
+the program to search for a folder in the root folder titled “fonts” and 
+“./fonts/Poppins-Medium.ttf” tells the program to find a file titled “Poppins-Medium.ttf” 
+in a folder titled “fonts” which is in the root folder of fonts.css (the vendor folder).
+
+
+
+“.” tells the program to go to the root folder. “..” tells the program to go to the root 
+of the root folder.
+
+
+
+I have a fonts folder with a ‘Poppins-Medium.ttf’ file, a ‘Poppins-Regular.ttf’ file, 
+and a ‘fonts.css’ file. ‘Poppins-Medium.ttf’ and ‘Poppins-Regular.ttf’ are binary code 
+files that describe what the fonts are. Fonts.css uses @font-face, describes what each 
+font is, and links each block to its corresponding TrueType Font file (or .ttf file for 
+short).
+
+
+
+And then in the page.css block, you can see that I used Arial as the back-up font and 
+sans-serif as the secondary back-up font.
+
+
+
+
+11)Why are alternative fonts needed for this project?
+
+
+
+Alternative fonts are used in CSS to ensure that text remains readable and visually 
+appealing if the preferred font isn’t available.
+
+
+
+12)Tell what the challenges were in doing the project and what you learned from it.
+
+
+
+This was a more complex and time consuming project than the previous 3 projects 
+(Projects 0, 1, & 2).
+
+
+
+It is interesting to learn and understand how adaptive web design works. I was not 
+previously familiar with the concept of adaptive web design where a web page changes 
+its layout based on the size of the user’s screen.
