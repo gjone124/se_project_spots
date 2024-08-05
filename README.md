@@ -23,7 +23,7 @@ This project is our first project to use responsive design where the screen chan
 
 **Images**
 
-Here are 2 screenshots of the project:
+Here are two screenshots of the project (that look like they could be just one screenshot):
 
 <div
  display="flex">
@@ -53,4 +53,4 @@ The text of this video can be found in the video-script.txt file provided.
 
 This webpage is deployed to GitHub Pages
 
--Deployment Link:
+-Deployment Link: https://gjone124.github.io/se_project_spots/
