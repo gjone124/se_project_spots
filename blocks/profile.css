@@ -48,7 +48,6 @@
 }
 
 .profile__edit-button {
-  /* margin-top: auto; */
   background-color: transparent;
   background-position: left;
   background-repeat: no-repeat;
@@ -99,7 +98,7 @@
   }
 
   .profile__avatar-image {
-    /* margin-right: 0; */
+    margin-right: 0;
     width: 80px;
     height: 80px;
   }
