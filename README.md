@@ -11,7 +11,9 @@
 
 **Intro**
 
-This is the 4th project for the Triple Ten Software Enginerring program. It's associated with Sprint 3: Adaptive Web Design and Working with Layouts. For this project, we were given an adaptive web design through figma.com and we were told to replicate the web page from scratch using HTML and CSS.
+This is the 4th project for the Triple Ten Software Engineering program. It's associated with Sprint 3, 4, 5, 6, and 9.
+
+For the 1st stage of the project in Sprint 3 (Adaptive Web Design and Working with Layouts), we were given an adaptive web design through figma.com and we were told to replicate the web page from scratch using HTML and CSS.
 
 Spots is an image sharing website. There is a user profile with an avatar and a grid of photographs with a short description.
 
