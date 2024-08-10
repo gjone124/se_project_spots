@@ -29,20 +29,18 @@ This project is our first project to use responsive design where the screen chan
 
 Here are two sets of screenshots of the project (at 2 different screen resolutions):
 
+1440 pixels width (large laptop version) (2 combined screenshots):
+
 <div display="flex"><img align="center" alt="First Screenshot of Large Laptop Version" src="./images/laptop-screenshot-1.png" /></div>
 <div display="flex"><img align="center" alt="Second Screenshot of Large Laptop Version" src="./images/laptop-screenshot-2.png" /></div>
 
-1440 pixels width (large laptop version):
+320 pixels width (small mobile version) (5 combined screenshots):
 
-<div
- display="flex">
- <img align="center" alt="First Screenshot of Large Laptop Version" src="./images/laptop-screenshot-1.png" /></div>
-
- <div
- display="flex">
- <img align="center" alt="Second Screenshot of Large Laptop Version" src="./images/laptop-screenshot-2.png" /></div>
-
-320 pixels width (small mobile version):
+<div display="flex"><img align="center" alt="First Screenshot of Small Mobile Version" src="./images/mobile-screenshot-1.png" /></div>
+<div display="flex"><img align="center" alt="Second Screenshot of Small Mobile Version" src="./images/mobile-screenshot-2.png" /></div>
+<div display="flex"><img align="center" alt="Third Screenshot of Small Mobile Version" src="./images/mobile-screenshot-3.png" /></div>
+<div display="flex"><img align="center" alt="Fourth Screenshot of Small Mobile Version" src="./images/mobile-screenshot-4.png" /></div>
+<div display="flex"><img align="center" alt="Fifth Screenshot of Small Mobile Version" src="./images/mobile-screenshot-5.png" /></div>
 
 **Tech Used**
 
