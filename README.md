@@ -34,14 +34,10 @@ Here are two sets of screenshots of the project (at 2 different screen resolutio
 <div
  display="flex">
  <img 
- justify-content="center" 
- height="500px" 
  alt="First Screenshot of Large Laptop Version" 
  src="./images/laptop-screenshot-1.png" />
 
 <img
-justify-content="center"
-height="500px"
 alt="Second Screenshot of Large Laptop Version"
 src="./images/laptop-screenshot-2.png" />
 
