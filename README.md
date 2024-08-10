@@ -36,13 +36,13 @@ Here are two sets of screenshots of the project (at 2 different screen resolutio
 
 320 pixels width (small mobile version) (7 combined screenshots):
 
-<div display="flex"><img align="center" alt="First Screenshot of Small Mobile Version" src="./images/mobile-screenshot-1.png" /></div>
-<div display="flex"><img align="center" alt="Second Screenshot of Small Mobile Version" src="./images/mobile-screenshot-2.png" /></div>
-<div display="flex"><img align="center" alt="Third Screenshot of Small Mobile Version" src="./images/mobile-screenshot-3.png" /></div>
-<div display="flex"><img align="center" alt="Fourth Screenshot of Small Mobile Version" src="./images/mobile-screenshot-4.png" /></div>
-<div display="flex"><img align="center" alt="Fifth Screenshot of Small Mobile Version" src="./images/mobile-screenshot-5.png" /></div>
-<div display="flex"><img align="center" alt="Sixth Screenshot of Small Mobile Version" src="./images/mobile-screenshot-6.png" /></div>
-<div display="flex"><img align="center" alt="Seventh Screenshot of Small Mobile Version" src="./images/mobile-screenshot-7.png" /></div>
+<div display="flex"><img align="center" width="390px" alt="First Screenshot of Small Mobile Version" src="./images/mobile-screenshot-1.png" /></div>
+<div display="flex"><img align="center" width="390px" alt="Second Screenshot of Small Mobile Version" src="./images/mobile-screenshot-2.png" /></div>
+<div display="flex"><img align="center" width="390px" alt="Third Screenshot of Small Mobile Version" src="./images/mobile-screenshot-3.png" /></div>
+<div display="flex"><img align="center" width="390px" alt="Fourth Screenshot of Small Mobile Version" src="./images/mobile-screenshot-4.png" /></div>
+<div display="flex"><img align="center" width="390px" alt="Fifth Screenshot of Small Mobile Version" src="./images/mobile-screenshot-5.png" /></div>
+<div display="flex"><img align="center" width="390px" alt="Sixth Screenshot of Small Mobile Version" src="./images/mobile-screenshot-6.png" /></div>
+<div display="flex"><img align="center" width="390px" alt="Seventh Screenshot of Small Mobile Version" src="./images/mobile-screenshot-7.png" /></div>
 
 **Tech Used**
 
