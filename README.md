@@ -21,19 +21,33 @@ This project is our first project to use responsive design where the screen chan
 
 **Figma**
 
-- [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
+- [Link to the project on Figma for Stage 1 (Sprint 3)](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
+
+- [Link to the project on Figma for Stage 2 (Sprint 4)](https://www.figma.com/design/GfXsvCPiLqITbrVOr7odwc/Sprint-4-Project%3A-Spots?node-id=0-1&t=tQN5JrnznqQ4Wa4c-0)
 
 **Images**
 
-Here are two screenshots of the project (that look like they could be just one screenshot):
+Here are two sets of screenshots of the project (at 2 different screen resolutions):
+
+1440 pixels width (large laptop version):
 
 <div
  display="flex">
- <img align="center" height"500px" alt="First Screenshot of Spots Project" src="./images/screenshot-1.png" /></div>
+ <img 
+ justify-content="center" 
+ height="500px" 
+ alt="First Screenshot of Large Laptop Version" 
+ src="./images/laptop-screenshot-1.png" />
 
- <div
- display="flex">
- <img align="center" height"500px" alt="Second Screenshot of Spots Project" src="./images/screenshot-2.png" /></div>
+<img
+justify-content="center"
+height="500px"
+alt="Second Screenshot of Large Laptop Version"
+src="./images/laptop-screenshot-2.png" />
+
+ </div>
+
+320 pixels width (small mobile version):
 
 **Tech Used**
 
