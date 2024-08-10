@@ -31,16 +31,13 @@ Here are two sets of screenshots of the project (at 2 different screen resolutio
 
 1440 pixels width (large laptop version):
 
-<div display="flex">
-    <img 
-        alt="First Screenshot of Large Laptop Version" 
-        src="./images/laptop-screenshot-1.png" />
-</div>
-<div display="flex">
-    <img
-        alt="Second Screenshot of Large Laptop Version"
-        src="./images/laptop-screenshot-2.png" />
-</div>
+<div
+ display="flex">
+ <img align="center" height"500px" alt="First Screenshot of Large Laptop Version" src="./images/laptop-screenshot-1.png" /></div>
+
+ <div
+ display="flex">
+ <img align="center" height"500px" alt="Second Screenshot of Large Laptop Version" src="./images/laptop-screenshot-2.png" /></div>
 
 320 pixels width (small mobile version):
 
