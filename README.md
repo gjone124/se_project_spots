@@ -29,8 +29,8 @@ This project is our first project to use responsive design where the screen chan
 
 Here are two sets of screenshots of the project (at 2 different screen resolutions):
 
-<img alt="First Screenshot of Large Laptop Version" src="./images/laptop-screenshot-1.png" />
-<img alt="Second Screenshot of Large Laptop Version" src="./images/laptop-screenshot-2.png" />
+<div> <img alt="First Screenshot of Large Laptop Version" src="./images/laptop-screenshot-1.png" /> </div>
+<div> <img alt="Second Screenshot of Large Laptop Version" src="./images/laptop-screenshot-2.png" /> </div>
 
 1440 pixels width (large laptop version):
 
