@@ -48,7 +48,7 @@ Here are two sets of screenshots of the project (at 2 different screen resolutio
 
 - HTML
 - CSS
-- Resposive Design
+- Responsive Design
 - BEM
 - Grid
 - Flexbox
