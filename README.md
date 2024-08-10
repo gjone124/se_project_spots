@@ -36,7 +36,6 @@ Here are two sets of screenshots of the project (at 2 different screen resolutio
  <img 
  alt="First Screenshot of Large Laptop Version" 
  src="./images/laptop-screenshot-1.png" />
-
 <img
 alt="Second Screenshot of Large Laptop Version"
 src="./images/laptop-screenshot-2.png" />
