@@ -25,7 +25,9 @@ This project is our first project to use responsive design where the screen chan
 
 **Stage 2 (Sprint 4)**
 
-For the 2nd stage of the project in Sprint 4 (Basic Javascript and Working with the DOM), we were given a 2nd design through figma.com ( [link to Stage 2 Figma](https://www.figma.com/design/GfXsvCPiLqITbrVOr7odwc/Sprint-4-Project%3A-Spots?node-id=0-1&t=tQN5JrnznqQ4Wa4c-0) ) and told to replicate it. This stage involves creating a pop-up window when the user clicks on the "Edit Profile" button. The cards were converted from a grid layout to an array layout using JavaScript.
+For the 2nd stage of the project in Sprint 4 (Basic Javascript and Working with the DOM), we were given a 2nd design through figma.com ( [link to Stage 2 Figma](https://www.figma.com/design/GfXsvCPiLqITbrVOr7odwc/Sprint-4-Project%3A-Spots?node-id=0-1&t=tQN5JrnznqQ4Wa4c-0) ) and told to replicate it.
+
+This stage involves creating a pop-up window when the user clicks on the "Edit Profile" button. The cards were converted from being hardcoded in HTML to an array in JavaScript (this JavaScript array was inserted into the HTML).
 
 **Figma**
 
