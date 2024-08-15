@@ -61,6 +61,10 @@
   transition: opacity 0.25s ease-in-out;
 }
 
+.profile__edit-button:hover {
+  opacity: 100%;
+}
+
 .profile__add-button {
   background-color: #212121;
   height: 52px;
@@ -74,18 +78,14 @@
   margin-left: auto;
 }
 
+.profile__add-button:hover {
+  opacity: 80%;
+}
+
 .profile__add-icon {
   height: 12px;
   width: 12px;
   margin-right: 8px;
-}
-
-.profile__edit-button:hover {
-  opacity: 100%;
-}
-
-.profile__add-button:hover {
-  opacity: 80%;
 }
 
 @media screen and (max-width: 627px) {

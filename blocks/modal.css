@@ -12,13 +12,12 @@
   padding: 0 20px;
   visibility: hidden;
   opacity: 0;
-  transition: visibility 0s linear 0.5s, opacity 0.5s linear;
+  transition: opacity 0.25s ease-in-out;
 }
 
 .modal__opened {
   visibility: visible;
   opacity: 1;
-  transition-delay: 0s;
 }
 
 .modal__container {
@@ -41,6 +40,7 @@
   background-color: #ffffff;
   border: none;
   opacity: 40%;
+  transition: opacity 0.25s ease-in-out;
 }
 
 .modal__close-button:hover {
@@ -67,6 +67,7 @@
   font-size: 20px;
   border-radius: 8px;
   border: 1px solid rgba(33, 33, 33, 0.4);
+  transition: opacity 0.25s ease-in-out;
 }
 
 .modal__input:hover {
@@ -79,6 +80,11 @@
   background-color: #212121;
   color: #fcf5e5;
   border-radius: 8px;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.modal__submit-button:hover {
+  opacity: 80%;
 }
 
 @media screen and (max-width: 627px) {
