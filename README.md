@@ -19,14 +19,12 @@ This is the 4th project for the Triple Ten Software Engineering program. It's as
 
 **Stage 1 (Sprint 3)**
 
-<br>
 For the 1st stage of the project in Sprint 3 (Adaptive Web Design and Working with Layouts), we were given an adaptive web design through figma.com ( [link to Stage 1 Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1) ) and we were told to replicate the web page from scratch using HTML and CSS.
 
 This project is our first project to use responsive design where the screen changes as it gets smaller or bigger.
 
 **Stage 2 (Sprint 4)**
 
-<br>
 For the 2nd stage of the project in Sprint 4 (Basic Javascript and Working with the DOM), we were given a 2nd design through figma.com ( [link to Stage 2 Figma](https://www.figma.com/design/GfXsvCPiLqITbrVOr7odwc/Sprint-4-Project%3A-Spots?node-id=0-1&t=tQN5JrnznqQ4Wa4c-0) ) and told to replicate it. This stage involves creating a pop-up window when the user clicks on the "Edit Profile" button.
 
 **Figma**
