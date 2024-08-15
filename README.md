@@ -51,11 +51,13 @@ Here are two sets of screenshots of the project (at 2 different screen resolutio
 
 - HTML
 - CSS
+- JavaScript
 - Responsive Design
 - BEM
 - Grid
 - Flexbox
 - Hover Elements
+- Overflow
 
 **Video Describing Project**
 
