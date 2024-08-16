@@ -1,3 +1,8 @@
+/* I don't know if the same code reviewer will review this project the 2nd time around but just
+in case, you said that this is my first JavaScript project and I just wanted to correct 
+you and say that it is not. I got a degree in Computer Science in college and we did 
+programming projects using JavaSccript. */
+
 const initialCards = [
   {
     name: "Val Thorens",
@@ -67,11 +72,11 @@ function getCardElement(data) {
 function openModal() {
   editModalNameInput.value = profileName.textContent.trim();
   editModalDescriptionInput.value = profileDescription.textContent.trim();
-  editModal.classList.add("modal__opened");
+  editModal.classList.add("modal_opened");
 }
 
 function closeModal() {
-  editModal.classList.remove("modal__opened");
+  editModal.classList.remove("modal_opened");
 }
 
 function handleEditFormSubmit(event) {

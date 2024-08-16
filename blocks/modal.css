@@ -1,3 +1,8 @@
+/* I don't know if the same tutor will review this project the 2nd time around but just
+in case, you said that this is my first JavaScript project and I just wanted to correct 
+you and say that it is not. I got a degree in Computer Science in college and we did 
+programming projects using JavaSccript. */
+
 .modal {
   position: fixed;
   top: 0;
@@ -15,7 +20,7 @@
   transition: opacity 0.25s ease-in-out;
 }
 
-.modal__opened {
+.modal_opened {
   visibility: visible;
   opacity: 1;
 }
@@ -41,6 +46,7 @@
   border: none;
   opacity: 40%;
   transition: opacity 0.25s ease-in-out;
+  cursor: pointer;
 }
 
 .modal__close-button:hover {
@@ -68,6 +74,7 @@
   border-radius: 8px;
   border: 1px solid rgba(33, 33, 33, 0.4);
   transition: opacity 0.25s ease-in-out;
+  cursor: pointer;
 }
 
 .modal__input:hover {
@@ -81,6 +88,7 @@
   color: #fcf5e5;
   border-radius: 8px;
   transition: opacity 0.25s ease-in-out;
+  cursor: pointer;
 }
 
 .modal__submit-button:hover {

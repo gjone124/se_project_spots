@@ -49,6 +49,7 @@
 
 .profile__edit-button {
   background-color: transparent;
+  background-image: url(../images/edit-icon.svg);
   background-position: left;
   background-repeat: no-repeat;
   padding: 0;
@@ -59,6 +60,7 @@
   width: 108px;
   text-align: right;
   transition: opacity 0.25s ease-in-out;
+  cursor: pointer;
 }
 
 .profile__edit-button:hover {
@@ -76,6 +78,7 @@
   flex-grow: 1;
   align-self: flex-end;
   margin-left: auto;
+  cursor: pointer;
 }
 
 .profile__add-button:hover {
