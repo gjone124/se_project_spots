@@ -101,9 +101,11 @@ function handleAddCardFormSubmit(event) {
     name: addCardModalNameInput.value,
     link: addCardModalLinkInput.value,
   };
+
   const addCardElement = getCardElement(inputValues);
   cardsList.prepend(addCardElement);
   closeModal(addCardModal);
+  event.target.reset();
 }
 
 function getCardElement(data) {

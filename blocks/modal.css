@@ -71,6 +71,7 @@
   width: 40px;
   height: 40px;
   background-image: url(../images/close-icon-dark.svg);
+  background-position: center;
   background-color: transparent;
   border: none;
   opacity: 40%;
@@ -88,6 +89,10 @@
   right: -52.5px;
   opacity: 100%;
   padding: 0px;
+}
+
+.modal__close-button_type_preview:hover {
+  opacity: 40%;
 }
 
 .modal__title {
@@ -135,6 +140,7 @@
 @media screen and (max-width: 627px) {
   .modal {
     padding: 0 10px;
+    background-color: rgba(0, 0, 0, 0.8);
   }
 
   .modal__container {
@@ -163,7 +169,7 @@
     width: 100%;
   }
 
-  .modal__close-btn_type_preview {
+  .modal__close-button_type_preview {
     top: -32px;
   }
 }
