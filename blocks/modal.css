@@ -61,8 +61,7 @@
   display: inline;
   position: absolute;
   left: 0;
-  /* top: calc(100% + 8px); */
-  bottom: -50px;
+  top: calc(100% + 8px);
 }
 
 .modal__close-button {
