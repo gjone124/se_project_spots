@@ -35,6 +35,7 @@ This stage involves creating a pop-up window with a submission form when the use
 For the 3rd stage of the project in Sprint 5 (JavaScript Program Logic and Methods), we were given a 3rd design (which added onto the previous design) through figma.com ( [link to Stage 3 Figma](https://www.figma.com/design/1qCS9RkiKiVquBhpOJqjZ0/Sprint-5-Project%3A-Spots?node-id=51-138&node-type=canvas&t=NJZoBcWTFx313b9i-0) ) and told to replicate it.
 
 This stage involves:
+
 (1)converting the array of objects using a "for loop" to an array of objects using a "forEach loop"
 
 (2)creating a pop-up window with a submission form when the user clicks on the "New Post" button
