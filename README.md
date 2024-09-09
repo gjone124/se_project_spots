@@ -40,7 +40,7 @@ This stage involves:
 
 (2)creating a pop-up window with a submission form when the user clicks on the "New Post" button
 
-(3)implementing the "Like" button for each card such that it toggles between being "liked" and "unliked" depending on whether or not the user has clicked on the like button and how many times the user has clicked on the like
+(3)implementing the "Like" button for each card such that it toggles between being "liked" and "unliked" depending on whether or not the user has clicked on the like button and how many times the user has clicked on the like button
 
 (4)creating a feature that allows for each card to be deleted
 
