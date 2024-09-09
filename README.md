@@ -36,10 +36,15 @@ For the 3rd stage of the project in Sprint 5 (JavaScript Program Logic and Metho
 
 This stage involves:
 (1)converting the array of objects using a "for loop" to an array of objects using a "forEach loop"
+
 (2)creating a pop-up window with a submission form when the user clicks on the "New Post" button
-(3)implementing the "Like" button for each card such that it toggles between being "liked" and "unliked" depending on whether or not the user has clicked on the like button and how many times the user has clicked on the like button
+
+(3)implementing the "Like" button for each card such that it toggles between being "liked" and "unliked" depending on whether or not the user has clicked on the like button and how many times the user has clicked on the like
+
 (4)creating a feature that allows for each card to be deleted
+
 (5)creating a picture modal that for each card allows the image to expand to its full size & that allows its caption to expand to its full length
+
 (6)creating a smooth modal opening & closing
 
 **Figma**
