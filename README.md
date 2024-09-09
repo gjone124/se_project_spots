@@ -5,6 +5,7 @@
 - Intro
 - Stage 1 (Sprint 3)
 - Stage 2 (Sprint 4)
+- Stage 3 (Sprint 5)
 - Figma
 - Images
 - Tech Used
@@ -25,9 +26,21 @@ This project is our first project to use responsive design where the screen chan
 
 **Stage 2 (Sprint 4)**
 
-For the 2nd stage of the project in Sprint 4 (Basic Javascript and Working with the DOM), we were given a 2nd design through figma.com ( [link to Stage 2 Figma](https://www.figma.com/design/GfXsvCPiLqITbrVOr7odwc/Sprint-4-Project%3A-Spots?node-id=0-1&t=tQN5JrnznqQ4Wa4c-0) ) and told to replicate it.
+For the 2nd stage of the project in Sprint 4 (Basic Javascript and Working with the DOM), we were given a 2nd design (which added onto the previous design) through figma.com ( [link to Stage 2 Figma](https://www.figma.com/design/GfXsvCPiLqITbrVOr7odwc/Sprint-4-Project%3A-Spots?node-id=0-1&t=tQN5JrnznqQ4Wa4c-0) ) and told to replicate it.
 
-This stage involves creating a pop-up window when the user clicks on the "Edit Profile" button. The cards were converted from being hardcoded in HTML to an array of objects in JavaScript. This JavaScript array of objects was then inserted into the HTML.
+This stage involves creating a pop-up window with a submission form when the user clicks on the "Edit Profile" button. The cards were converted from being hardcoded in HTML to an array of objects using JavaScript. This JavaScript array of objects was then inserted into the HTML.
+
+**Stage 3 (Sprint 5)**
+
+For the 3rd stage of the project in Sprint 5 (JavaScript Program Logic and Methods), we were given a 3rd design (which added onto the previous design) through figma.com ( [link to Stage 3 Figma](https://www.figma.com/design/1qCS9RkiKiVquBhpOJqjZ0/Sprint-5-Project%3A-Spots?node-id=51-138&node-type=canvas&t=NJZoBcWTFx313b9i-0) ) and told to replicate it.
+
+This stage involves:
+(1)converting the array of objects using a "for loop" to an array of objects using a "forEach loop"
+(2)creating a pop-up window with a submission form when the user clicks on the "New Post" button
+(3)implementing the "Like" button for each card such that it toggles between being "liked" and "unliked" depending on whether or not the user has clicked on the like button and how many times the user has clicked on the like button
+(4)creating a feature that allows for each card to be deleted
+(5)creating a picture modal that for each card allows the image to expand to its full size & that allows its caption to expand to its full length
+(6)creating a smooth modal opening & closing
 
 **Figma**
 
@@ -35,9 +48,11 @@ This stage involves creating a pop-up window when the user clicks on the "Edit P
 
 - [Link to the project on Figma for Stage 2 (Sprint 4)](https://www.figma.com/design/GfXsvCPiLqITbrVOr7odwc/Sprint-4-Project%3A-Spots?node-id=0-1&t=tQN5JrnznqQ4Wa4c-0)
 
+- [Link to the project on Figma for Stage 3 (Sprint 5)](https://www.figma.com/design/1qCS9RkiKiVquBhpOJqjZ0/Sprint-5-Project%3A-Spots?node-id=51-138&node-type=canvas&t=NJZoBcWTFx313b9i-0)
+
 **Images**
 
-Here are two sets of screenshots of the project (at 2 different screen resolutions):
+Here are two sets of screenshots of the project (at 2 different screen resolutions) (as of Stage 1):
 
 1440 pixels width (large laptop version) (2 combined screenshots):
 
@@ -58,11 +73,12 @@ Here are two sets of screenshots of the project (at 2 different screen resolutio
 - BEM
 - Grid
 - Flexbox
-- Array
+- Arrays
+- Loops
 - Hover Elements
 - Overflow
 
-**Video Describing Project**
+**Video Describing Project (as of Stage 1)**
 
 https://www.loom.com/share/fc87072b3f2f472b9f1fb6020a2819cf?sid=b4de1fc1-f7f0-4407-95b4-a8810fe82c37
 
