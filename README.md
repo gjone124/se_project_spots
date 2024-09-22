@@ -6,6 +6,7 @@
 - Stage 1 (Sprint 3)
 - Stage 2 (Sprint 4)
 - Stage 3 (Sprint 5)
+- Stage 4 (Sprint 6)
 - Figma
 - Images
 - Tech Used
@@ -26,13 +27,13 @@ This project is our first project to use responsive design where the screen chan
 
 **Stage 2 (Sprint 4)**
 
-For the 2nd stage of the project in Sprint 4 (Basic Javascript and Working with the DOM), we were given a 2nd design (which added onto the previous design) through figma.com ( [link to Stage 2 Figma](https://www.figma.com/design/GfXsvCPiLqITbrVOr7odwc/Sprint-4-Project%3A-Spots?node-id=0-1&t=tQN5JrnznqQ4Wa4c-0) ) and told to replicate it.
+For the 2nd stage of the project in Sprint 4 (Basic Javascript and Working with the DOM), we were given a 2nd design (which added onto the previous design) through figma.com ( [link to Stage 2 Figma](https://www.figma.com/design/GfXsvCPiLqITbrVOr7odwc/Sprint-4-Project%3A-Spots?node-id=0-1&t=tQN5JrnznqQ4Wa4c-0) ) and we were told to replicate it.
 
 This stage involves creating a pop-up window with a submission form when the user clicks on the "Edit Profile" button. The cards were converted from being hardcoded in HTML to an array of objects using JavaScript. This JavaScript array of objects was then inserted into the HTML.
 
 **Stage 3 (Sprint 5)**
 
-For the 3rd stage of the project in Sprint 5 (JavaScript Program Logic and Methods), we were given a 3rd design (which added onto the previous design) through figma.com ( [link to Stage 3 Figma](https://www.figma.com/design/1qCS9RkiKiVquBhpOJqjZ0/Sprint-5-Project%3A-Spots?node-id=51-138&node-type=canvas&t=NJZoBcWTFx313b9i-0) ) and told to replicate it.
+For the 3rd stage of the project in Sprint 5 (JavaScript Program Logic and Methods), we were given a 3rd design (which added onto the previous design) through figma.com ( [link to Stage 3 Figma](https://www.figma.com/design/1qCS9RkiKiVquBhpOJqjZ0/Sprint-5-Project%3A-Spots?node-id=51-138&node-type=canvas&t=NJZoBcWTFx313b9i-0) ) and we were told to replicate it.
 
 This stage involves:
 
@@ -48,6 +49,10 @@ This stage involves:
 
 (6)creating a smooth modal opening & closing
 
+**Stage 4 (Sprint 6)**
+
+For the 4th stage of the project in Sprint 6 (Objects and Event Handling in JavaScript), we implemented user input validation to ensure that the user was only able to submit valid input. We were given a 4th design (which added onto the previous design) through figma.com ( [link to Stage 4 Figma](https://www.figma.com/design/jFtXsDr4XOyebKcgjyXN6W/Sprint-6-Project%3A-Spots?node-id=0-1&node-type=canvas&t=AqkMzv182siS3OdU-0) ) and we were told to replicate it.
+
 **Figma**
 
 - [Link to the project on Figma for Stage 1 (Sprint 3)](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
@@ -55,6 +60,8 @@ This stage involves:
 - [Link to the project on Figma for Stage 2 (Sprint 4)](https://www.figma.com/design/GfXsvCPiLqITbrVOr7odwc/Sprint-4-Project%3A-Spots?node-id=0-1&t=tQN5JrnznqQ4Wa4c-0)
 
 - [Link to the project on Figma for Stage 3 (Sprint 5)](https://www.figma.com/design/1qCS9RkiKiVquBhpOJqjZ0/Sprint-5-Project%3A-Spots?node-id=51-138&node-type=canvas&t=NJZoBcWTFx313b9i-0)
+
+- [Link to the project on Figma for Stage 4 (Sprint 6)](https://www.figma.com/design/jFtXsDr4XOyebKcgjyXN6W/Sprint-6-Project%3A-Spots?node-id=0-1&node-type=canvas&t=AqkMzv182siS3OdU-0)
 
 **Images**
 
@@ -83,6 +90,7 @@ Here are two sets of screenshots of the project (at 2 different screen resolutio
 - Loops
 - Hover Elements
 - Overflow
+- Input Validation
 
 **Video Describing Project (as of Stage 1)**
 
