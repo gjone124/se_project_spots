@@ -102,6 +102,18 @@
   line-height: 1;
 }
 
+.modal__form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+
+.modal__form_delete {
+  flex-direction: row;
+  column-gap: 20px;
+  justify-content: center;
+}
+
 .modal__label {
   display: flex;
   flex-direction: column;
@@ -154,6 +166,28 @@
 
 .modal__submit-button_disabled {
   opacity: 50%;
+}
+
+.modal__submit-button_delete {
+  background-color: #ff6565;
+  color: #000000;
+  border: none;
+}
+
+.modal__submit-button_delete:hover {
+  background-color: #ff3333;
+  visibility: visible;
+}
+
+.modal__submit-button_cancel {
+  background-color: transparent;
+  color: #000000;
+}
+
+.modal__submit-button_cancel:hover {
+  background-color: #000000;
+  color: #ffffff;
+  visibility: visible;
 }
 
 @media screen and (max-width: 627px) {
