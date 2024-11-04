@@ -69,13 +69,13 @@ Here are two sets of screenshots of the project (at 2 different screen resolutio
 
 1440 pixels width (large laptop version) (2 combined screenshots):
 
-<div display="flex"><img align="center" alt="First Screenshot of Large Laptop Version" src="./images/laptop-screenshot-1.png" /></div>
-<div display="flex"><img align="center" alt="Second Screenshot of Large Laptop Version" src="./images/laptop-screenshot-2.png" /></div>
+<div display="flex"><img align="center" alt="First Screenshot of Large Laptop Version" src="./src/images/laptop-screenshot-1.png" /></div>
+<div display="flex"><img align="center" alt="Second Screenshot of Large Laptop Version" src="./src/images/laptop-screenshot-2.png" /></div>
 
 320 pixels width (small mobile version) (2 combined screenshots):
 
-<div display="flex"><img align="center" width="390px" alt="First Screenshot of Small Mobile Version" src="./images/mobile-screenshot-1.png" /></div>
-<div display="flex"><img align="center" width="390px" alt="Second Screenshot of Small Mobile Version" src="./images/mobile-screenshot-2.png" /></div>
+<div display="flex"><img align="center" width="390px" alt="First Screenshot of Small Mobile Version" src="./src/images/mobile-screenshot-1.png" /></div>
+<div display="flex"><img align="center" width="390px" alt="Second Screenshot of Small Mobile Version" src="./src/images/mobile-screenshot-2.png" /></div>
 
 **Tech Used**
 
