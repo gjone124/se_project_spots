@@ -73,6 +73,8 @@ Some other additions for the 5th stage include:
 
 - [Link to the project on Figma for Stage 4 (Sprint 6)](https://www.figma.com/design/jFtXsDr4XOyebKcgjyXN6W/Sprint-6-Project%3A-Spots?node-id=0-1&node-type=canvas&t=AqkMzv182siS3OdU-0)
 
+- [Link to the project on Figma for Stage 5 (Sprint 9)](https://www.figma.com/design/mXGZ6wZ4QPKx5KjpHX9QCV/Sprint-9-Project%3A-Spots?node-id=0-1&t=q3sLidv5V6u8hM1F-0)
+
 **Images**
 
 Here are two sets of screenshots of the project (at 2 different screen resolutions) (as of Stage 1):
@@ -92,6 +94,7 @@ Here are two sets of screenshots of the project (at 2 different screen resolutio
 - HTML
 - CSS
 - JavaScript
+- JSON
 - Responsive Design
 - BEM
 - Grid
@@ -101,6 +104,7 @@ Here are two sets of screenshots of the project (at 2 different screen resolutio
 - Hover Elements
 - Overflow
 - Input Validation
+- API
 
 **Video Describing Project (as of Stage 1)**
 
