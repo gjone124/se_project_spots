@@ -59,8 +59,11 @@ For the 4th stage of the project in Sprint 6 (Objects and Event Handling in Java
 For the 5th stage of the project in Sprint 9 (Asynchronous JavaScript and Working with APIs), we implemented an API to allow the project to be accessed remotely from a server instead of locally on your device (which was the case as of Stage 4). THis allows the project to have any changes that were implemented remotely to stay in place when you refresh the browser for the project. We were given a 5th design (which added onto the previous design) through figma.com ( [link to Stage 5 Figma](https://www.figma.com/design/mXGZ6wZ4QPKx5KjpHX9QCV/Sprint-9-Project%3A-Spots?node-id=0-1&t=q3sLidv5V6u8hM1F-0) ) and we were told to replicate it.
 
 Some other additions for the 5th stage include:
+
 (1)creating a delete modal to confirm that the user wants to delete a card
+
 (2)creating an edit avatar modal to change the profile's avatar
+
 (3)creating a submission event handler that displays "Saving.." (after you click on the Save Button) or "Deleting..." (after you click on the Delete Button) while the server is processing the request
 
 **Figma**
